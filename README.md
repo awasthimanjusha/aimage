@@ -43,3 +43,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 3. Create route groups (Mark a folder as a Route Group to prevent the folder from being included in the route's URL path)
    Create layouts to share common code between routes
+
+4. Setup clerk for authentication
+   https://clerk.com/docs/quickstarts/nextjs
+
+5. Deploy project on vercel
+
+6. Create a webhook to synchronize user data from clerk to the app's local database
