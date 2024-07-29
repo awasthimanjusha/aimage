@@ -34,3 +34,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+1. Create next app
+   npx create-next-app@latest
+
+2. Setup shadcn
+   npx shadcn-ui@latest init
+
+3. Create route groups (Mark a folder as a Route Group to prevent the folder from being included in the route's URL path)
+   Create layouts to share common code between routes
